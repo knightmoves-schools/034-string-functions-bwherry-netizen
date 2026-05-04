@@ -1,5 +1,5 @@
 SELECT * FROM EMPLOYEE
-WHERE SUBSTRING(FIRST_NAME, 1, 1) as "First Initial"
-AND (SUBSTRING(LAST_NAME, 1, 1) as "Last Initial")
-And (SUBSTRING(DATE(DATE) 1, 4) as "Birth Year")
-AND (UPPER(TRIM(LOCATION)) as "Corrected Location")
+WHERE SUBSTRING(FIRST_NAME, 1, 1) AS "First Initial"
+AND (SUBSTRING(LAST_NAME, 1, 1) AS "Last Initial")
+And (SUBSTRING(DATE(DATE) 1, 4) AS "Birth Year")
+AND (UPPER(TRIM(LOCATION)) AS "Corrected Location")
